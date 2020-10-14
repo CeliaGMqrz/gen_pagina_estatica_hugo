@@ -5,7 +5,11 @@ Esta página estática la voy a emplear para tener un blog personal en la que pu
 * Vamos a crear el nuevo contenido. Por ejemplo vamos a introducir una guia de instalación para instalar VirtualBox
 
 ```sh
-celiagm@debian:~/unbitdeinformacioncadadia$ hugo new posts/instalacion_Vbox_debian.md
+$ hugo new posts/instalacion_Vbox_debian.md
+
+```
+Salida:
+```sh
 /home/celiagm/unbitdeinformacioncadadia/content/posts/instalacion_Vbox_debian.md created
 ```
 * Vemos que se crea el contenido en el directorio **content/posts**. Vamos a editar el fichero que hemos creado en markdown y lo que vemos dentro del fichero md es un front matter, en él vamos a añadir etiquetas que nos interesen para este sitio. Además vamos a cambiar el **draft**, que es como un modo borrador, le ponemos 'false' para desactivarlo y que se publique. Justo despues del front matter añadimos el contenido en markdown:

@@ -84,7 +84,11 @@ theme = "hugo-theme-hello-friend-ng"
 * Ahora vamos a ejecutar el siguiente comando para visualizar nuestro sitio en nuestro entorno de desarrollo. 
 
 ```sh
-celiagm@debian:~/unbitdeinformacioncadadia$ hugo server -D
+$ hugo server -D
+```
+Salida:
+
+```sh
 Start building sites … 
 
                    | EN | FR  
@@ -113,4 +117,4 @@ Press Ctrl+C to stop
 
 
 
-Si quieres seguir la guía para agregar contenido accede a este [enlace]()
+Si quieres seguir la guía para agregar contenido accede a este [enlace](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/agregar_contenido_hugo.md)
