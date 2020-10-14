@@ -14,5 +14,5 @@ El objetivo principal es generar nuestro sitio web con Hugo y poder desplegarlo 
 
 ### DOCUMENTACIÓN DE LA PRÁCTICA
 
-[1. GUIA DE INSTALACIÓN DE HUGO](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/guia_instalacion_hugo.md)
-[2. CONFIGURACIÓN DE HUGO. AÑADIR UN TEMA.](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/configuracion_hugo_temas_contenido.md)
+* [1. GUIA DE INSTALACIÓN DE HUGO](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/guia_instalacion_hugo.md)
+* [2. CONFIGURACIÓN DE HUGO. AÑADIR UN TEMA.](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/configuracion_hugo_temas_contenido.md)
