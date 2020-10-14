@@ -2,7 +2,7 @@
 
 ## CONFIGURACIÓN DE UN TEMA: FICHERO DE CONFIGURACIÓN (**config.toml**). 
 
-## DESCARGAR Y AÑADIR UN TEMA
+### Descargar y añadir un tema
 
 En esta [página](https://themes.gohugo.io/) hay muchos temas disponibles para hugo. Vamos a descargar el que más nos guste y se adapte a nuestros intereses y lo agregamos al directorio **themes**.
 
@@ -113,7 +113,7 @@ Press Ctrl+C to stop
 
 
 
-## AGREGAR CONTENIDO
+## Agregar contenido
 
 Esta página estática la voy a emplear para tener un blog personal en la que publicaré mis conocimientos sobre lo que vaya aprendiendo en cuanto a la informática.
 

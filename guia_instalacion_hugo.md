@@ -7,7 +7,7 @@
 
 Está escrito en un lenguaje llamado 'Go', inspirado en la sintaxis de C e intenta ser dinámico como python. Ha sido desarrolado por Google y es un proyecto opensource.
 
-## INSTALACIÓN DE HUGO
+## Instalación de Hugo
 
 En la página [oficial de hugo](https://gohugo.io/getting-started/installing/), cuando vamos a la opción de descargar en Debian y Ubuntu, nos indica que podemos hacer la descarga con apt desde los repositorios de debian, pero dice que no es recomendable ya que usan versiones más antiguas y no están actualizadas. Por lo que vamos a ir a GitHub, a los repositorios [oficiales de Hugo](https://github.com/gohugoio/hugo). Y vamos a hacer la instalación a partir de un sistema de gestión de paquetes de software libre llamado Homebrew.
 
@@ -30,7 +30,7 @@ Como hemos dicho es un **sistema de paquetería** de software libre, que entre o
 ~$ ln -s ../Homebrew/bin/brew ~/.linuxbrew/bin
 ~$ eval $(~/.linuxbrew/bin/brew shellenv)
 ```
-### INSTALAR HUGO CON HOMEBREW
+### Instalar Hugo con Homebrew
 
 * Es muy sencillo e intuitivo Homebrew, instalamos hugo de la siente manera.
 
@@ -45,7 +45,7 @@ celiagm@debian:~$ hugo version
 Hugo Static Site Generator v0.76.3/extended linux/amd64 BuildDate: unknown
 ```
 
-### CREAR EL PROYECTO
+### Crear nuestro proyecto
 
 * Vamos a crear nuestro proyecto con Hugo, necesitamos un nombre para nuestro sitio. En mi caso lo he llamado **'unbitdeinformacioncadadia'**:
 
@@ -74,10 +74,10 @@ archetypes  config.toml  content  data  layouts  static  themes
 ```
 
 
-## ¿QUÉ SISTEMA DE PLANTILLAS UTILIZA HUGO?
+## ¿Qué sistema de plantillas utiliza Hugo?
 
 Hugo usa archivos de plantilla para procesar contenido en HTML. Los archivos de plantilla son un puente entre el contenido y la presentación. La plantilla guía la presentación especificantdo el estilo a utilizar.
 
-Hay tres tipos de plantillas: única, de lista y parcial. Nosotros vamos a utilizar la de lista ya que, lo que vamos hacer es un grupo de contenido relacionado. Es decir, tendrá una página de inicio que actuará como portal para el resto del contenido del sitio (Entradas del blog, etc.) 
+Hay tres tipos de plantillas: única, de lista y parcial. Nosotros vamos a utilizar la de **lista** ya que, lo que vamos hacer es un grupo de contenido relacionado. Es decir, tendrá una página de inicio que actuará como portal para el resto del contenido del sitio (Entradas del blog, etc.) 
 
 Para configurar temas y nuestro sitio web sigue en [este enlace]()
