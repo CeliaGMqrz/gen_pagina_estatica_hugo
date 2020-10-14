@@ -80,4 +80,4 @@ Hugo usa archivos de plantilla para procesar contenido en HTML. Los archivos de 
 
 Hay tres tipos de plantillas: única, de lista y parcial. Nosotros vamos a utilizar la de **lista** ya que, lo que vamos hacer es un grupo de contenido relacionado. Es decir, tendrá una página de inicio que actuará como portal para el resto del contenido del sitio (Entradas del blog, etc.) 
 
-Para configurar temas y nuestro sitio web sigue en [este enlace]()
+Para configurar temas y nuestro sitio web sigue en [este enlace](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/configuracion_hugo_temas_contenido.md)
