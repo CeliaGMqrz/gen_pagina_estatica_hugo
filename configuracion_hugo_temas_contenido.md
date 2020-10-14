@@ -140,6 +140,6 @@ Aquí se agrega el contenido en markdown.
 
 * No hace falta parar el servicio de hugo porque se hacen los cambios en caliente y en tiempo real. Cuando insertemos la entrada nueva veremos que efectivamente se ha cambiado y además de una forma muy rápida, que es una de las mejores características de hugo.
 
-![lista_post1.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/lista_post1.jpeg)
+![lista_post1.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/lista_posts1.jpeg)
 
 ![post1.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/post1.jpeg)
