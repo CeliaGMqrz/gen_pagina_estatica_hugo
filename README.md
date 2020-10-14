@@ -11,3 +11,7 @@ Netlify ofrece un **despliegue continuo** que permite vincular nuestro sitio web
 ### NUESTRO OBJETIVO 
 
 El objetivo principal es generar nuestro sitio web con Hugo y poder desplegarlo en Netlify.
+
+### DOCUMENTACIÓN DE LA PRÁCTICA
+
+[1. GUIA DE INSTALACIÓN DE HUGO](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/guia_instalacion_hugo.md)

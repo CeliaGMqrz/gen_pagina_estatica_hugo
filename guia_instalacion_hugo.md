@@ -1,7 +1,7 @@
 
 # GUIA DE INSTALACIÓN HUGO
 
-## CONCEPTOS PREVIOS
+## ¿QUÉ ES HUGO? ¿EN QUÉ LENGUAJE ESTÁ ESCRITO?
 
 **Hugo** es un generador de sitios web estáticos. Se caracteriza por ser muy rápido y seguro. 
 
@@ -45,7 +45,7 @@ celiagm@debian:~$ hugo version
 Hugo Static Site Generator v0.76.3/extended linux/amd64 BuildDate: unknown
 ```
 
-## CREAR EL PROYECTO
+### CREAR EL PROYECTO
 
 * Vamos a crear nuestro proyecto con Hugo, necesitamos un nombre para nuestro sitio. En mi caso lo he llamado **'unbitdeinformacioncadadia'**:
 
