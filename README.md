@@ -1,0 +1,1 @@
+# gen_pagina_estatica_hugo
