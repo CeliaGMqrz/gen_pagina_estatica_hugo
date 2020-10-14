@@ -126,6 +126,15 @@ theme = "hugo-theme-hello-friend-ng"
 
 ```
 
+* Cambiamos el autor y El subtitulo de nuestra página
+
+```sh
+[author]
+  name = "Celia García Márquez"
+
+  homeSubtitle = "Celia García Márquez"
+```
+
 * A continuación vamos a ejecutar el siguiente comando para visualizar nuestro sitio en nuestro entorno de desarrollo. 
 
 ```sh
