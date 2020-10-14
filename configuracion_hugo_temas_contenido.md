@@ -109,7 +109,7 @@ Press Ctrl+C to stop
 
 ```
 
-![captura_plantilla1.jpeg]()
+![captura_plantilla1.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/captura_plantilla1.jpeg)
 
 
 
