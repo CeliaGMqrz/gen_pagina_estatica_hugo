@@ -81,7 +81,52 @@ theme = "hugo-theme-hello-friend-ng"
 
 ```
 
-* Ahora vamos a ejecutar el siguiente comando para visualizar nuestro sitio en nuestro entorno de desarrollo. 
+* Tambien en este fichero vamos a cambiar algunos parámetros que nos deja hacer hugo en su configuración, como son los de las redes sociales:
+
+```sh
+  # Social icons
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:cg.marquez@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/CeliaGMqrz"
+    
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/cgmarquez/"
+``` 
+
+* Nos quedaremos con el idioma en ingles:
+
+```sh
+[languages]
+  [languages.en]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+```
+
+* Veremos que también podemos configurar el menú de nuestro sitio web. Este es muy sencillo solo tenemos dos páginas, el de contacto y el blog, hemos editado los parámetros para cambiar de nombre nuestro menú:
+
+```sh
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "Contacto"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Blog"
+    url        = "posts/"
+
+```
+
+* A continuación vamos a ejecutar el siguiente comando para visualizar nuestro sitio en nuestro entorno de desarrollo. 
 
 ```sh
 $ hugo server -D
