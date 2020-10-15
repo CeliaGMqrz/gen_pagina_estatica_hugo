@@ -29,6 +29,11 @@ Aquí se agrega el contenido en markdown.
 
 * No hace falta parar el servicio de hugo porque se hacen los cambios en caliente y en tiempo real. Cuando insertemos la entrada nueva veremos que efectivamente se ha cambiado y además de una forma muy rápida, que es una de las mejores características de hugo.
 
-![lista_post1.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/lista_posts1.jpeg)
-
 ![post1.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/post1.jpeg)
+
+
+* De igual forma como hemos agregado contenido podemos modificarlo. Tenemos la página **about.md**, la cual vamos a modificar, con la diferencia de que vamos a añadirle una imagen. Es tan simple como saber la sintaxis de markdown y poner la ruta adecuada. En este caso para poner la imagen hemos puesto lo siguiente:
+
+![aboutcode.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/aboutcode.jpeg)
+
+![aboutcaptura.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/aboutcaptura.jpeg)
