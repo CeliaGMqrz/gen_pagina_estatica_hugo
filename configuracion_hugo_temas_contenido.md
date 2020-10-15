@@ -170,5 +170,21 @@ Press Ctrl+C to stop
 ![captura_plantilla1.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/captura_plantilla1.jpeg)
 
 
+### AGREGAR IMAGEN A LA PÁGINA DE INICIO
+
+Como podemos ver en el fichero de configuración, hay un apartado para poner un 'portrait'. Vamos a descomentar las líneas y le pondremos la ruta de la imagen que vayamos a querer. Es importante saber que estas imagenes deben estar situadas en la carpeta **static**, dentro de ella crearemos otra llamada **images**, y en su interior agregaremos las imágenes que queremos para nuestro sitio web. **NO CONFUNDIR CON LA CARPETA STATIC DE NUESTRO TEMA DESCARGADO**, Nuestro proyecto y el contenido de la carpeta del tema que tenemos configurado no es lo mismo. Usaremos el contenido de esa carpeta si es necesario sobreescribir algo en nuestro proyecto.
+
+```sh
+  # Uncomment this if you want a portrait on your start page
+  #
+   [params.portrait]
+     path     = "/images/avatar.jpg"
+     alt      = "Portrait"
+     maxWidth = "500px"
+```
+
+* Este es el resultado de habilitar la imagen en nuestra página de inicio por el fichero de configuracion.
+
+![capturaconavatar.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/capturaconavatar.jpeg)
 
 Si quieres seguir la guía para agregar contenido accede a este [enlace](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/agregar_contenido_hugo.md)
