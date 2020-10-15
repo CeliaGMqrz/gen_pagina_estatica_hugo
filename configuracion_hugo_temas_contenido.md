@@ -7,14 +7,15 @@
 En esta [página](https://themes.gohugo.io/) hay muchos temas disponibles para hugo. Vamos a descargar el que más nos guste y se adapte a nuestros intereses y lo agregamos al directorio **themes**.
 
 ```sh
+celiagm@debian:~/unbitdeinformacioncadadia/themes$ git init
+Inicializado repositorio Git vacío en /home/celiagm/unbitdeinformacioncadadia/themes/.git/
+
 celiagm@debian:~/unbitdeinformacioncadadia/themes$ git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
 Clonando en '/home/celiagm/unbitdeinformacioncadadia/themes/hugo-theme-hello-friend-ng'...
 remote: Enumerating objects: 1890, done.
 remote: Total 1890 (delta 0), reused 0 (delta 0), pack-reused 1890
-Recibiendo objetos: 100% (1890/1890), 6.77 MiB | 6.64 MiB/s, listo.
+Recibiendo objetos: 100% (1890/1890), 6.77 MiB | 7.92 MiB/s, listo.
 Resolviendo deltas: 100% (1026/1026), listo.
-celiagm@debian:~/unbitdeinformacioncadadia/themes$ ls
-hugo-theme-hello-friend-ng
 
 ```
 
@@ -88,13 +89,12 @@ theme = "hugo-theme-hello-friend-ng"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:cg.marquez@gmail.com"
+    url  = "mailto:cg.marquez95@gmail.com"
 
   [[params.social]]
     name = "github"
     url  = "https://github.com/CeliaGMqrz"
     
-
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/cgmarquez/"
