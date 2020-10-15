@@ -109,4 +109,4 @@ body.dark-theme {
 
 Así se ve nuestra página con el css que hemos implementado:
 
-![captura2.jpeg]()
+![captura2.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/captura2.jpeg)
