@@ -110,3 +110,60 @@ body.dark-theme {
 Así se ve nuestra página con el css que hemos implementado:
 
 ![captura2.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/captura2.jpeg)
+
+## Generar el sitio estático
+
+Necesitaremos generar el código de nuestro sitio web, para ello haremos lo siguiente:
+
+```sh
+celiagm@debian:~/unbitdeinformacioncadadia$ hugo -D
+```
+
+Salida:
+
+```sh
+Start building sites … 
+
+                   | EN  
+-------------------+-----
+  Pages            | 25  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     | 20  
+  Processed images |  0  
+  Aliases          | 12  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 41 ms
+
+```
+
+* Veremos que se nos genera el directorio **public**:
+
+```sh
+celiagm@debian:~/unbitdeinformacioncadadia$ ls
+archetypes  config.toml  content  data  layouts  public  resources  static  themes
+celiagm@debian:~/unbitdeinformacioncadadia$ cd public/
+celiagm@debian:~/unbitdeinformacioncadadia/public$ ls
+404.html
+about
+about-hugo
+about-us
+bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js
+categories
+contact
+css
+fonts
+images
+index.html
+index.xml
+main.393856bf2c430bb6c01d7af07c6fe966e7cce8073435cfbbc46e590bab7405ef.css
+main.css.map
+posts
+robots.txt
+series
+sitemap.xml
+tags
+
+```
