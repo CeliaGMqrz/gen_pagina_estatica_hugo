@@ -33,7 +33,7 @@
 
 ![net5.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/net5.jpeg)
 
-* Vamos al sitio web y vemos como ha quedado
+* Vamos al sitio web y vemos como ha quedado: [Sitio Web](https://unbitdeinformacioncadadia.netlify.app/)
 
 ![r1.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/r1.jpeg)
 

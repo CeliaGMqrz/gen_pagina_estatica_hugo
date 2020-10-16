@@ -17,3 +17,5 @@ El objetivo principal es generar nuestro sitio web con Hugo y poder desplegarlo 
 1. [GUIA DE INSTALACIÓN DE HUGO](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/guia_instalacion_hugo.md)
 2. [CONFIGURACIÓN DE HUGO. AÑADIR UN TEMA.](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/configuracion_hugo_temas_contenido.md)
 3. [AGREGAR CONTENIDO Y PAGINAS](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/agregar_contenido_hugo.md)
+4. [DESPLIEGUE EN NETLIFY](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/despliegue_netlify.md)
+5. [SITIO WEB](https://unbitdeinformacioncadadia.netlify.app/)

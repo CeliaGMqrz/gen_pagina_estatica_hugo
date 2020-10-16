@@ -170,4 +170,4 @@ tags
 
 * Este directorio será el que vamos a desplegar en Netlify.
 
-Sigue en este enlace para continuar la guía -> [Despliegue en Netlify]()
+Sigue en este enlace para continuar la guía -> [Despliegue en Netlify](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/despliegue_netlify.md)
