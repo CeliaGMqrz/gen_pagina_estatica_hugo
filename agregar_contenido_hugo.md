@@ -167,3 +167,7 @@ sitemap.xml
 tags
 
 ```
+
+* Este directorio será el que vamos a desplegar en Netlify.
+
+Sigue en este enlace para continuar la guía -> [Despliegue en Netlify]()
