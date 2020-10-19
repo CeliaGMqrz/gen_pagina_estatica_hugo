@@ -8,7 +8,7 @@
 ### Requisitos
 
 * Tener una cuenta de GitHub, GitLab o Bitbucket. Nosotros elegiremos GitHub.
-* Tienes un sitio web generado con Hugo listo para compartirlo.
+* Tener un sitio web generado con Hugo listo para compartirlo.
 
 
 ## Crear cuenta en Netlify
