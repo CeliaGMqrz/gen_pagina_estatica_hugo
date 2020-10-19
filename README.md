@@ -19,3 +19,4 @@ El objetivo principal es generar nuestro sitio web con Hugo y poder desplegarlo 
 3. [AGREGAR CONTENIDO Y PAGINAS](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/agregar_contenido_hugo.md)
 4. [DESPLIEGUE EN NETLIFY](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/despliegue_netlify.md)
 5. [SITIO WEB](https://unbitdeinformacioncadadia.netlify.app/)
+6. [SCRIPT PARA GENERAR EL SITIO Y ACTUALIZAR CAMBIOS](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/automatizar_cambios_web.md)
