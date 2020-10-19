@@ -4,6 +4,8 @@
 
 Se ha generado la carpeta public con el código html generado por hugo. Pero resulta que al desplegar en netlify se ve mal el sitio web. ¿Qué está pasando?. Bien, debemos tener en cuenta que, en el fichero de configuración de nuestro sitio (config.toml), teniamos puesta una URL 'localhost' que no es la que vamos a utlizar para nuestro sitio web en Netlify. Es decir debemos de cambiar la URL en el fichero de configuración. Vamos a editar el fichero y lo guardamos. Lo que tendriamos que hacer manualmente sería volver a generar la carpeta public y dentro de la carpeta public decirle los cambios a git y subirlos al repositorio. Pero lo vamos hacer automático con un script en bash.
 
+![captura_prueba_mal.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/captura_prueba_mal.jpeg)
+
 * El siguiente script en bash se ejecutaria desde la carpeta public una vez el contenido se haya generado. De manera que añade todo el contenido del directorio, hace un commit 'automatico', utlizamos pull por si hay que sobreescribir y finalmente push para subir el contenido.
 
 ```sh
