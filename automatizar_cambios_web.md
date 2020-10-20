@@ -37,22 +37,27 @@ git push
 * Primero vamos a editar el fichero de configuración y le ponemos la url adecuada.
 
 ```sh
-celia@debian:~/sitioweb/unbitdeinformacioncadadia$ ls
-archetypes        config.toml  data     netlify.toml  resources  themes
-auto_git_hugo.sh  content      layouts  public        static
-celia@debian:~/sitioweb/unbitdeinformacioncadadia$ nano config.toml 
+
+celia@debian:~/github/app_estatica_hugo/hugo_netlify_site$ ls
+archetypes        config.toml  layouts       public     static
+auto_git_hugo.sh  content      netlify.toml  resources  themes
+celia@debian:~/github/app_estatica_hugo/hugo_netlify_site$ nano config.toml 
+
 
 ```
 
 * El script que vamos a ejecutar es el siguiente. Genera la carpeta public, entra en ella, copia todo el contenido en nuestro repositorio, indicando la ruta absoluta. Luego añade con git todos los elementos. Marca el commit automático. Y subimos el contenido.
 
+NOTA: ¡¡Si van a usar este script tiene que editar la ruta absoluta dirigida hacia su repositorio!!
+
 ```sh
+
 #!/bin/bash
 
 hugo -D
 cd public
-cp -r * /home/celia/sitioweb/public_prueba_hugo
-cd /home/celia/sitioweb/public_prueba_hugo
+cp -r * /home/celia/github/app_estatica_hugo/hugo_netlify_site/public /home/celia/github/app_estatica_hu$
+cd /home/celia/github/app_estatica_hugo/unbitdeinformacioncadadia
 git add *
 git commit -m "commit automatico"
 git pull
@@ -61,11 +66,12 @@ git push
 
 ```
 
-* Lo ejecutamos dentro de nuestro proyecto. ¡¡Si van a usar este script tiene que editar la ruta absoluta dirigida hacia su repositorio!!
+* Lo ejecutamos dentro de nuestro proyecto. 
 
 ```sh
 
-celia@debian:~/sitioweb/unbitdeinformacioncadadia$ bash auto_git_hugo.sh 
+celia@debian:~/github/app_estatica_hugo/hugo_netlify_site$ bash auto_git_hugo.sh
+
 Start building sites … 
 
                    | EN  
@@ -91,7 +97,7 @@ Compressing objects: 100% (47/47), done.
 Writing objects: 100% (70/70), 7.26 KiB | 0 bytes/s, done.
 Total 70 (delta 36), reused 0 (delta 0)
 remote: Resolving deltas: 100% (36/36), completed with 16 local objects.
-To github.com:CeliaGMqrz/public_prueba_hugo.git
+To github.com:CeliaGMqrz/unbitdeinformacioncadadia.git
    9301ecc..df7a77e  main -> main
 
 ```
