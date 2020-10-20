@@ -6,6 +6,18 @@ Se ha generado la carpeta public con el código html generado por hugo. Pero res
 
 ![captura_prueba_mal.jpeg](https://github.com/CeliaGMqrz/gen_pagina_estatica_hugo/blob/main/capturas/captura_prueba_mal.jpeg)
 
+
+
+* Editar fichero (config.toml)
+
+```sh
+baseURL = "https://unbitdeinformacioncadadia.netlify.app/"
+languageCode = "en-us"
+title = "Un bit de informacion cada día"
+theme = "hugo-theme-hello-friend-ng"
+```
+
+
 * El siguiente script en bash se ejecutaria desde la carpeta public una vez el contenido se haya generado. De manera que añade todo el contenido del directorio, hace un commit 'automatico', utlizamos pull por si hay que sobreescribir y finalmente push para subir el contenido.
 
 ```sh
