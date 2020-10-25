@@ -22,17 +22,23 @@ Como hemos dicho es un **sistema de paquetería** de software libre, que entre o
 ~$ sudo apt-get install build-essential curl file git
 ```
 
-* Si lo instalamos desde las fuentes hacemos lo siguiente:
+* Lo instalamos desde las fuentes. Creamos una carpeta llamada homebrew y en su interior clonamos el repositorio. Veremos que tenemos un ejecutable dentro de brew que es 'brew'.
 
 ```sh
 ~$ git clone https://github.com/Homebrew/brew ~/.linuxbrew/Homebrew
-~$ mkdir ~/.linuxbrew/bin
-~$ ln -s ../Homebrew/bin/brew ~/.linuxbrew/bin
-~$ eval $(~/.linuxbrew/bin/brew shellenv)
+~$ mkdir homebrew
+~$ celiagm@debian:~/github/homebrew/brew/bin$ ls
+brew  hugo  patchelf
+```
+
+* Con eval cargamos como si de una variable se tratase el ejecutable de brew en la terminal actual. Con el siguiente comando se 'carga' de alguna forma 'brew' y a continuación ya podríamos usarlo.
+
+```sh
+~$ eval $(/home/celiagm/github/homebrew/brew/bin/brew shellenv)
 ```
 ### Instalar Hugo con Homebrew
 
-* Es muy sencillo e intuitivo Homebrew, instalamos hugo de la siente manera.
+* Instalamos hugo con brew, una vez cargada la argumentación con eval del ejecutable.
 
 ```sh
 ~$ brew install hugo
