@@ -8,7 +8,7 @@ Se ha generado la carpeta public con el código html generado por hugo. Pero res
 
 
 
-* Editar fichero (config.toml)
+* Editar fichero (*config.toml*)
 
 ```sh
 baseURL = "https://unbitdeinformacioncadadia.netlify.app/"
